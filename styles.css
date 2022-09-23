@@ -9,15 +9,13 @@ img {
     display: block;
     margin: 0 auto;
     border: 0;
-    max-width: 1024px;
     height: 100vh;
-    min-height: 700px;
+    width: auto;
 }
 
-@media (max-width: 767px) or (orientation: portait) {
+@media screen and (orientation: portrait) {
     img {
         height: auto;
-        max-width: 100vw;
-        min-height: auto;
+        width: 100vw;
     }
 }
